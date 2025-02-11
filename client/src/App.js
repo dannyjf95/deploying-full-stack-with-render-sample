@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 
 function App() {
   const [activities, setActivities] = useState([])
-  const [newActivity, setNewActivity] = useState('')
+  const [newActivity, setNewActivity] = useState('poop')
 
   useEffect(() => {
     activityService
